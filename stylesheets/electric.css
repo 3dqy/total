@@ -197,6 +197,29 @@ button3:active {
 #thermo{
   margin-left: -27.2%; margin-top: 26.5%;
 }
+#calcA{
+  margin-left: -39%; margin-top: 18.5%;
+}
+#calcB{
+  margin-left: -39%; margin-top: 22%;
+}
+#precal{
+  margin-left: -58%; margin-top: 15%;
+}
+#prechem{
+  margin-left: -68%; margin-top: 15%;
+}
+#chem{
+  margin-left: -68%; margin-top: 18.5%;
+}
+#phy1{
+  margin-left: -28%; margin-top: 15%;
+}
+
+
+
+
+
 
 .button {
   text-decoration: none;
