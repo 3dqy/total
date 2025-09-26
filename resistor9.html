@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact and Photo Page</title>
+  <style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 10px; /* Reduced padding for smaller screens */
+  background-color: #000a27;
+  color: #333;
+}
+
+.container {
+  max-width: 100%; /* Full width on mobile */
+  width: 90vw; /* Slightly less than full width for margins */
+  margin: 0 auto;
+  background: #fff;
+  padding: 15px; /* Reduced padding */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  font-size: clamp(1.5rem, 5vw, 2rem); /* Responsive font size */
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  font-size: clamp(1.2rem, 4vw, 1.5rem);
+}
+
+h5 {
+  line-height: 1.6;
+  color: #555;
+  font-size: clamp(0.9rem, 3vw, 1.1rem); /* Responsive font size */
+  margin: 15px 0;
+}
+
+.contact-info, .text-content, .photo-placeholder {
+  margin: 15px 0; /* Reduced margin for mobile */
+}
+
+.contact-info p {
+  margin: 8px 0;
+  font-size: clamp(0.9rem, 2.5vw, 1rem);
+}
+
+.text-content p {
+  line-height: 1.6;
+  color: #555;
+  font-size: clamp(0.85rem, 2.5vw, 0.95rem);
+}
+
+.photo-placeholder {
+  width: 100%;
+  background-color: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed #aaa;
+  color: #666;
+  font-size: clamp(0.9rem, 3vw, 1rem);
+}
+
+.photo-placeholder img {
+  max-width: 100%; /* Ensure image is responsive */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove any inline spacing */
+}
+
+/* Media Queries for Mobile Devices */
+@media screen and (max-width: 600px) {
+  body {
+    padding: 5px; /* Further reduce padding on very small screens */
+  }
+
+  .container {
+    padding: 10px;
+    width: 95vw; /* Slightly wider on small screens */
+  }
+
+  h1 {
+    font-size: clamp(1.2rem, 4.5vw, 1.8rem);
+  }
+
+  h2 {
+    font-size: clamp(1rem, 3.5vw, 1.3rem);
+  }
+
+  h5 {
+    font-size: clamp(0.8rem, 2.8vw, 1rem);
+  }
+
+  .photo-placeholder {
+    margin: 10px 0;
+  }
+}
+
+/* Ensure no horizontal scrolling */
+* {
+  box-sizing: border-box;
+}  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Clue 4 </h1><br>
+    <h2>Team <span style="color: black;">Black</span></h2>
+    <h5>Lorem ipsum dolor sit amet
+       consectetur adipisicing elit. Dignissimos possimus 
+       esse ab delectus obcaecati soluta dolores reiciendis nisi aspernatur
+        autem voluptatem optio quam, beatae distinctio ipsa itaque voluptate quia quidem?
+    </h5>
+        
+    <br>
+    <br>
+    <br>
+    <center>
+    <div class="photo-placeholder">
+      <img src="/clues/9.png" alt="call organizer">
+    </div>
+    </center>
+  </div>
+</body>
+</html>
